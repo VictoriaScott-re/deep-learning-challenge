@@ -9,7 +9,7 @@ The purpose of this project was to develop a **binary classifier** using a deep 
 ## Results
 
 ### Dataset Preview
-![Dataset Preview](images/dataset_preview.png)
+![Dataset Preview](Images/dataset_preview.png)
    - A screenshot of the dataset after dropping the `EIN` and `NAME` columns. 
    - This shows the remaining features that were used for training.
 
@@ -25,7 +25,7 @@ The purpose of this project was to develop a **binary classifier** using a deep 
   - `EIN` and `NAME` — These columns were not beneficial to the prediction task and were dropped during preprocessing.
 
 ### Data Preprocessing Screenshot
-![Data Preprocessing](images/data_preprocessing.png)
+![Data Preprocessing](Images/data_preprocessing.png)
    - A screenshot showing part of the preprocessing step where categorical variables were encoded with `pd.get_dummies()` and the dataset split into features and target arrays.
 
 ---
@@ -47,15 +47,15 @@ The purpose of this project was to develop a **binary classifier** using a deep 
   - Experimented with feature engineering and used scaling and binning to optimize the input data.
 
 ### Model Summary
-![Model Summary](images/model_summary.png)
+![Model Summary](Images/model_summary.png)
    - A screenshot of the model summary displaying the architecture of the final combined model (neurons, layers, and activation functions).
 
 ### Training Output
-![Training Output](images/training_output.png)
+![Training Output](Images/training_output.png)
    - A screenshot showing the training output, including loss and accuracy at the final epoch.
 
 ### Evaluation Output
-![Evaluation Output](images/evaluation_output.png)
+![Evaluation Output](Images/evaluation_output.png)
    - A screenshot of the model evaluation on the test data, showing the final loss and accuracy.
 
 ---

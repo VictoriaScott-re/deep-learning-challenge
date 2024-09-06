@@ -63,3 +63,16 @@ The purpose of this project was to develop a **binary classifier** using a deep 
 ## Summary
 
 While the deep learning model was not able to meet the 75% target accuracy, it performed consistently around **72-73%** across various optimization attempts. For future improvements, I recommend exploring other machine learning models like **Gradient Boosting**, **XGBoost**, or **LightGBM**, which are often well-suited for tabular data and may achieve better performance.
+
+---
+
+## References
+
+- Portions of this code were created as part of the curriculum content provided by the course.
+- Any external code or assistance referenced in this project is acknowledged below:
+   - [TensorFlow Documentation](https://www.tensorflow.org/): For guidance on building and optimizing neural network models.
+   - [Stack Overflow](https://stackoverflow.com/): General code snippets and troubleshooting help.
+   - [scikit-learn Documentation](https://scikit-learn.org/stable/): Used for Random Forest implementation and data preprocessing.
+- Collaborators and Support:
+   - Worked independently on the majority of the project, with occasional assistance from course instructors, and AI for clarification on certain concepts.
+
